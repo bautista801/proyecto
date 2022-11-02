@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div-principal {
+    background-color: black;
+    width: 856px;
+    height: 642px;
+}
+
+.menu {
+    width: 856px;
+    height: 50px;
+    background-color: #E35D12;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    width: 856px;
+    margin-top: 1px;
+}
+
+.lila {
+    width: 40px;
+    height: 40px;
+    background-color: #303030;
+    border-radius: 50%;
+}
+
+
+.info-principal {
+    background: rgb(255, 255, 255);
+    width: 636px;
+    height: 286px;
+    border: none;
+}
+
+.img-pokemon-detail {
+    width: 286px;
+    height: 286px;
+}
+
+.caracteristicas {
+    margin-top: 1px;
+    width: auto;
+}
+
+.tipo {
+    width: 318px;
+    height: 50px;
+    background-color: #404040;
+}
+
+.habilidades {
+    color: #fff;
+    text-align: center;
+    margin-top: 1px;
+    background-color: #757575;
+    width: 318px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades > h3 {
+    margin-top: 16px;
+}
+
+.niveles {
+    margin: 0 1px;
+   
+}
+
+.poderes {
+    width: 317px;
+    height: 50px;
+    background-color: #E35D12;
+}
+
+.flotante {
+    width: 219px;
+    height: 592px;
+    background-color: #757575;
+}
+
+.scroll {
+    width: auto;
+    height: 510px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 5px;
+    background-color: #00E7F5;
+    border-radius: 5px;
+} 
+
+@media (max-width: 1024px) {
+
+    .div-principal {
+        background-color: black;
+        width: 300px;
+        height: 1540px;
+    }
+
+    .info-principal {
+        width: 300px;
+    }
+
+    .menu {
+        width: 300px;
+        height: 50px;
+    }
+
+    .d-flex {
+        width: 300px;
+    }
+
+    .habilidades {
+        width: 300px;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poderes {
+        width: 300px;
+        height: 50px;
+    }
+
+    .flotante {
+        width: 300px;
+    }
+
+    .flex-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caracteristicas {
+        flex-direction: column;
+        margin: 1px 0;
+    }
+
+    .principal {
+        flex-direction: column;
+    }
+
+    .niveles {
+        margin: 0px;       
+    }
+} 
