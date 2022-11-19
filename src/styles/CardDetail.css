@@ -23,13 +23,12 @@
     margin-top: 1px;
 }
 
-.lila {
+.black {
     width: 40px;
     height: 40px;
     background-color: #303030;
     border-radius: 50%;
 }
-
 
 .info-principal {
     background: rgb(255, 255, 255);
@@ -102,7 +101,13 @@
     width: 5px;
     background-color: #00E7F5;
     border-radius: 5px;
+    height: auto;
 } 
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 5px;
+}
 
 @media (max-width: 1024px) {
 

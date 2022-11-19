@@ -11,7 +11,7 @@ const CardDetail = ({ pokedex }) => {
     return (
         <div className='div-principal mx-auto p-0 mb-5'>
 
-            {/* div de nav bar */}
+            {/* Menú */}
 
             <Menu pokedex={pokedex} />
 
@@ -23,7 +23,7 @@ const CardDetail = ({ pokedex }) => {
                         <div className='flex-media'>
 
 
-                            {/* div de imagen */}
+                            {/* Imagen */}
 
                             <div className='info-principal d-flex mt-0'>
                                 <img className='img-pokemon-detail mx-auto' src={pokedex.sprites.other.home.front_default} alt={pokedex.name} />
@@ -31,7 +31,7 @@ const CardDetail = ({ pokedex }) => {
 
                             <div className='caracteristicas d-flex mt-0'>
 
-                                {/* detalles */}
+                                {/* Detalles */}
 
                                 <Abilities pokedex={pokedex} />
 

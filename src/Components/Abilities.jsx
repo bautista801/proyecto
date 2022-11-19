@@ -5,7 +5,8 @@ const Abilities = ({ pokedex }) => {
         <div>
 
             <div className='detalles'>
-                {/* tipo */}
+
+                {/* Tipos */}
 
                 <div className='tipo d-flex'>
                     <h3 className='text-white m-auto d-inline'>Tipo:</h3>
@@ -20,14 +21,14 @@ const Abilities = ({ pokedex }) => {
                     }
                 </div>
 
-                {/* altura */}
+                {/* Altura */}
 
                 <div className='tipo d-flex'>
                     <h3 className='text-white m-auto d-inline'>Altura:</h3>
                     <span className='text-white m-auto'>{pokedex.height}</span>
                 </div>
 
-                {/* peso */}
+                {/* Peso */}
 
                 <div className='tipo d-flex'>
                     <h3 className='text-white m-auto d-inline'>Peso:</h3>
@@ -35,7 +36,7 @@ const Abilities = ({ pokedex }) => {
                 </div>
             </div>
 
-            {/* habilidades */}
+            {/* Habilidades */}
 
             <div className='habilidades'>
                 <h3>Habilidad</h3>

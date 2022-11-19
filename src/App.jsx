@@ -8,6 +8,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import logo from './images/logo.png'
 
 function App() {
 
@@ -53,7 +54,7 @@ function App() {
   return ( 
       <BrowserRouter className='container'>
         <h1 className='text-center my-5'>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="logo pokemon" />
+          <img src={logo} alt="Pokemon Logo" />
         </h1>
         <div className='row mx-0'>
           <Routes>
