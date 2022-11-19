@@ -14,7 +14,7 @@ const Buttons = ({ setPokedata, setUrl, prevUrl, nextUrl }) => {
                             setPokedata([])
                             setUrl(prevUrl)
                         }}
-                        className={`${ !prevUrl ? 'disabled' : ''} next me-4`}>
+                        className={`${ !prevUrl ? 'disabled' : ''} previous me-4`}>
                         Anterior
                     </button>
                     
@@ -25,7 +25,7 @@ const Buttons = ({ setPokedata, setUrl, prevUrl, nextUrl }) => {
                             setPokedata([])
                             setUrl(nextUrl)
                         }}
-                        className={`${ !nextUrl ? 'disabled' : ''} previous ms-4`}>
+                        className={`${ !nextUrl ? 'disabled' : ''} next ms-4`}>
                         Siguiente
                     </button>
 

@@ -23,11 +23,16 @@
     margin-top: 1px;
 }
 
-.black {
+.lila {
     width: 40px;
     height: 40px;
-    background-color: #303030;
+    background-color: #9147FF;
     border-radius: 50%;
+    border: #444 solid 1px;
+}
+
+.lila:hover {
+    background-color: #a46bfa;
 }
 
 .info-principal {
@@ -99,13 +104,13 @@
 
 .scroll::-webkit-scrollbar {
     width: 5px;
-    background-color: #00E7F5;
+    background-color: #000;
     border-radius: 5px;
     height: auto;
 } 
 
 .scroll::-webkit-scrollbar-thumb {
-    background: #000;
+    background: #9147FF;
     border-radius: 5px;
 }
 

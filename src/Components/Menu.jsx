@@ -7,7 +7,7 @@ const Menu = ({ pokedex }) => {
             <div className='d-flex text-white m-0'>
                 <h4 className='my-auto ms-3'>{pokedex.id}</h4>
                 <h4 className='my-auto mx-auto'>{pokedex.name}</h4>
-                <Link className='btn black text-white my-auto me-1' to='/'>X</Link>
+                <Link className='btn lila text-white my-auto me-1' to='/'>X</Link>
             </div>
         </div>
     )

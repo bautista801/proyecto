@@ -64,6 +64,10 @@ h1 > img {
     font-weight: 600;
 }
 
+.btn:hover {
+    background-color: #a46bfa;
+}
+
 .center {
     display: flex;
     justify-content: center;
